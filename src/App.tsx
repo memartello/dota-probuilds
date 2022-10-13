@@ -69,8 +69,8 @@ function App() {
           return (
             <img
               src={url + heroe.img}
-              height="50px"
-              width="50px"
+              height="80px"
+              width="80px"
               onClick={() => infoHeroe(heroe.hero_id)}
             />
           );
